@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
+  --Very-dark-blue-cardBG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body{
+  font-family: 'Outifit', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  width: 400px;
+}
+
+.img-equilibrium{
+  height: 320px;
+  width: 300px;
+}

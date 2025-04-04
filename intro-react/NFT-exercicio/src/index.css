@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-:root{
+* {
+  font-size: 18px;
+}
+
+:root {
   --Soft-blue: hsl(215, 51%, 70%);
   --Cyan: hsl(178, 100%, 50%);
   --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
@@ -9,24 +13,105 @@
   --White: hsl(0, 0%, 100%);
 }
 
-body{
-  font-family: 'Outifit', sans-serif;
+body {
+  font-family: "Outifit", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 95vh;
+  background-color: var(--Very-dark-blue-mainBG);
 }
 
-.Container{
+.Container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 600px;
-  width: 400px;
+  height: 650px;
+  width: 350px;
+  background-color: var(--Very-dark-blue-cardBG);
+  border-radius: 12px;
 }
 
-.img-equilibrium{
+.img-equilibrium {
   height: 320px;
   width: 300px;
+  border-radius: 12px;
+}
+
+.titleImg {
+  color: var(--White);
+}
+
+.titleImg:hover {
+  cursor: pointer;
+  color: var(--Cyan);
+}
+
+.box-img {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+}
+
+.description {
+  color: var(--Soft-blue);
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 300px;
+}
+
+.ethereum {
+  display: flex;
+  gap: 5px;
+  color: var(--Cyan);
+  align-items: center;
+  justify-content: center;
+}
+
+.info-time {
+  display: flex;
+  gap: 5px;
+  color: var(--Soft-blue);
+  align-items: center;
+  justify-content: center;
+}
+
+.ethereum-section {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.hr {
+  border-color: var(--Soft-blue);
+  width: 300px;
+}
+
+.creator-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 300px;
+  gap: 10px;
+}
+
+.creator-avatar {
+  height: 40px;
+  width: 40px;
+  border: solid var(--White) 1.5px;
+  border-radius: 50%;
+}
+
+.creation-of {
+  color: var(--Soft-blue);
+}
+
+.creator-name {
+  color: var(--White);
+}
+
+.creator-name:hover {
+  cursor: pointer;
+  color: var(--Cyan);
 }

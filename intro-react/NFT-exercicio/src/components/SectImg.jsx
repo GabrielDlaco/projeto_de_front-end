@@ -1,7 +1,7 @@
 
 const SectImg = ({children}) => {
     return(
-       <section className="">{children}</section>
+       <section className="box-img">{children}</section>
     )
 }
 

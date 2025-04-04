@@ -1,7 +1,7 @@
 
 const TitleImg = () => {
     return(
-        <h1>Equilibrium #3429</h1>
+        <h1 className="titleImg">Equilibrium #3429</h1>
     )
 }
 

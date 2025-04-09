@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-size: 18px;
+}
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
+  --Very-dark-blue-cardBG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Outifit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--Very-dark-blue-mainBG);
+  margin: 0;
+}
+
+h1{
+  color: white;
+}
+
+.Container {
+  background-color: var(--Very-dark-blue-cardBG);
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.imagem-principal{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.titulo{
+  color: var(--White);
+}
+
+.paragrafo{
+  color: var(--Soft-blue);
+  font-size: 18px;
+}
+
+.cripto-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cripto-info span{
+  display: flex;
+  align-items: center;
+}
+
+.cripto-info span img{
+  margin-right: 5px;
+}
+
+.cripto-value{
+  color: var(--Cyan);
+}
+
+.perfil{
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--Very-dark-blue-line);
+}
+
+.perfil img{
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+strong{
+  color: white;
+}
+
+.info-time{
+  color: var(--Soft-blue);
+}

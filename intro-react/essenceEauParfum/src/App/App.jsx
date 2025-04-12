@@ -7,6 +7,7 @@ import Description from '../Components/Description'
 import DivPrice from '../Components/DivPrice'
 import Price from '../Components/Price'
 import Promotion from '../Components/Promotion'
+import Button from '../Components/Button'
 
 const App = () => {
     return(
@@ -27,6 +28,8 @@ const App = () => {
                         <Price />
                         <Promotion />
                     </DivPrice>
+
+                    <Button />
 
                 </ContainerInfo>
 

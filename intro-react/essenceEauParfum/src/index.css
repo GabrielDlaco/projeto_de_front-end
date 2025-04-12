@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-p{
+p {
   font-size: 14px;
 }
 
-:root{
+:root {
   --Green-500: hsl(158, 36%, 37%);
   --Green-700: hsl(158, 42%, 18%);
   --Black: hsl(212, 21%, 14%);
@@ -20,7 +20,7 @@ p{
   --White: hsl(0, 0%, 100%);
 }
 
-body{
+body {
   background-color: var(--Cream);
   height: 100vh;
   display: flex;
@@ -28,19 +28,19 @@ body{
   justify-content: center;
 }
 
-.main{
+.main {
   height: 450px;
   width: 600px;
   display: flex;
   border-radius: 12px;
 }
 
-.image{
+.image {
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
 }
 
-.container-info{
+.container-info {
   display: flex;
   flex-direction: column;
   padding: 30px;
@@ -51,26 +51,26 @@ body{
   gap: 1em;
 }
 
-.item{
+.item {
   letter-spacing: 8px;
   font-weight: 700;
   color: var(--Grey);
 }
 
-.title{
+.title {
   font-family: "Fraunces", serif;
   font-weight: 700px;
   width: 230px;
 }
 
-.description{
+.description {
   font-family: "Montserrat", sans-serif;
   color: var(--Grey);
   font-weight: 700px;
   font-size: 15px;
 }
 
-.div-price{
+.div-price {
   display: flex;
   height: 70px;
   width: 100%;
@@ -78,11 +78,31 @@ body{
   gap: 1em;
 }
 
-.price{
+.price {
   font-family: "Fraunces", serif;
   color: var(--Green-500);
 }
 
-.promotion{
+.promotion {
   font-family: "Fraunces", serif;
+}
+
+.button {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px;
+  background-color: var(--Green-500);
+  border-radius: 10px;
+  border: none;
+  color: var(--White);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button:hover {
+  background-color: var(--Green-700);
+  transition: 0.4s;
 }

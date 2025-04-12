@@ -35,8 +35,10 @@ const situacaoFalse = {
 
 const ExercicioUm = () => {
     const dados = luana // ou lucas
-    const valores = dados.compras.map((dado) => (dado.preco.replace("R$", "")))
+    const valores = dados.compras.map((dado) => Number(dado.preco.replace("R$ ", "")))
     const soma = valores.reduce((a , b) => a + b)
+    console.log(valores)
+    console.log(soma)
     return(
         <>
         <p>Nome: {dados.cliente}</p>

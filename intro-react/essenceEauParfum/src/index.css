@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 14px;
+}
+
+:root{
+  --Green-500: hsl(158, 36%, 37%);
+  --Green-700: hsl(158, 42%, 18%);
+  --Black: hsl(212, 21%, 14%);
+  --Grey: hsl(228, 12%, 48%);
+  --Cream: hsl(30, 38%, 92%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body{
+  background-color: var(--Cream);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  height: 450px;
+  width: 600px;
+  display: flex;
+  border-radius: 12px;
+}
+
+.image{
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.container-info{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: var(--White);
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  gap: 1em;
+}
+
+.item{
+  letter-spacing: 8px;
+  font-weight: 700;
+  color: var(--Grey);
+}
+
+.title{
+  font-family: "Fraunces", serif;
+  font-weight: 700px;
+  width: 230px;
+}
+
+.description{
+  font-family: "Montserrat", sans-serif;
+  color: var(--Grey);
+  font-weight: 700px;
+  font-size: 15px;
+}
+
+.div-price{
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  gap: 1em;
+}
+
+.price{
+  font-family: "Fraunces", serif;
+  color: var(--Green-500);
+}
+
+.promotion{
+  font-family: "Fraunces", serif;
+}

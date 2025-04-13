@@ -1,37 +1,19 @@
-import ContainerImg from '../Components/ContainerImg'
+import InfoContainer from '../Components/InfoContainer'
 import MainContainer from '../Components/MainContainer'
-import ContainerInfo from '../Components/ContainerInfo'
-import Item from '../Components/item'
-import Title from '../Components/Title'
-import Description from '../Components/Description'
-import DivPrice from '../Components/DivPrice'
-import Price from '../Components/Price'
-import Promotion from '../Components/Promotion'
-import Button from '../Components/Button'
+import ParfumImage from '../Components/ParfumImage'
+import PriceDiv from '../Components/PriceDiv'
+
 
 const App = () => {
     return(
         <>
             <MainContainer>
 
-                <ContainerImg />
+                    <ParfumImage />
 
-                <ContainerInfo>
-
-                    <Item />
-
-                    <Title />
-
-                    <Description />
-
-                    <DivPrice>
-                        <Price />
-                        <Promotion />
-                    </DivPrice>
-
-                    <Button />
-
-                </ContainerInfo>
+                <InfoContainer>
+                    <PriceDiv />
+                </InfoContainer>
 
             </MainContainer>
         </>

@@ -1,11 +1,9 @@
-import Exemplo from "../components/Exemplo"
-import ExercicioUm from "../components/ExercicioUm"
+import Exercicio2 from "../components/Exercicio2"
 
 const App = () => {
     return(
         <>
-            <Exemplo />
-            <ExercicioUm />
+            <Exercicio2 />
         </>
     )
 }

@@ -44,7 +44,8 @@ const Button = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  gap: "10px",
+  gap: "10px"
+
 }
 
 const InfoContainer = ({children}) => {

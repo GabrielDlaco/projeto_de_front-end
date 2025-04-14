@@ -33,7 +33,7 @@ const situacaoFalse = {
     color: "red"
 }
 
-const ExercicioUm = () => {
+const Exercicio1 = () => {
     const dados = luana // ou lucas
     const valores = dados.compras.map((dado) => Number(dado.preco.replace("R$ ", "")))
     const soma = valores.reduce((a , b) => a + b)
@@ -49,4 +49,4 @@ const ExercicioUm = () => {
     )
 }
 
-export default ExercicioUm
+export default Exercicio1

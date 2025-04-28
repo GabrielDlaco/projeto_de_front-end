@@ -1,22 +1,28 @@
-import InfoContainer from '../Components/InfoContainer'
-import MainContainer from '../Components/MainContainer'
-import ParfumImage from '../Components/ParfumImage'
-import PriceDiv from '../Components/PriceDiv'
+import Categoria from "../Components/Categoria"
+import ContainerDescricao from "../Components/ContainerDescricao"
+import ContainerPrincipal from "../Components/ContainerPrincipal"
+import Descricao from "../Components/Descricao"
+import Preco from "../Components/Preco"
+import Titulo from "../Components/Titulo"
+
 
 
 const App = () => {
     return(
-        <>
-            <MainContainer>
+        <ContainerPrincipal>
 
-                    <ParfumImage />
+         <div>
+            <Imagem />
+        </div>
 
-                <InfoContainer>
-                    <PriceDiv />
-                </InfoContainer>
+        <ContainerDescricao>
+        <Categoria texto={"perfume"} />
+        <Titulo texto={"Gabrielle Essence Eau De Parfum"} />
+        <Descricao texto={"A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL"} />
+        <Preco preco={149.99} precoOriginal={169.99} desconto={true} />
+        </ContainerDescricao>
 
-            </MainContainer>
-        </>
+        </ContainerPrincipal>
     )
 }
 

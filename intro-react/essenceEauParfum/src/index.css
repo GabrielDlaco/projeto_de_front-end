@@ -1,17 +1,67 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --Green-500: hsl(158, 36%, 37%);
+  --Green-700: hsl(158, 42%, 18%);
+  --Black: hsl(212, 21%, 14%);
+  --Grey: hsl(228, 12%, 48%);
+  --Cream: hsl(30, 38%, 92%);
+  --White: hsl(0, 0%, 100%);
 }
 
-p {
-  font-size: 14px;
-}
-
-body {
-  background-color: hsl(30, 38%, 92%);
-  height: 100vh;
+body{
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--Cream);
+}
+
+.categoria{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--Grey);
+  letter-spacing: 2px;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+
+.titulo{
+  font-family: 'Fraunces';
+  text-transform: capitalize;
+}
+
+.descricao{
+  font-family: 'Montserrat';
+  color: var(--Grey);
+}
+
+.preco-atual{
+  font-family: 'Fraunces';
+  color: var(--Green-500);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.preco-original{
+  font-family: 'Montserrat';
+  color: var(--Grey);
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.container-preco{
+  display: flex;
+}
+
+.container-principal{
+
+}
+
+.container-descricao{
+  max-width: 400px;
+  color: var(--White);
+  padding: 20px;
 }
